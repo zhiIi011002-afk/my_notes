@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "我的笔记"
+  name: "我的空间"
   text: "一个随便记的站点"
   tagline: Stay Hungry,Stay Foolish
   image:
