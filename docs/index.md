@@ -22,7 +22,7 @@ features:
       src: /流星04.png
     title: 南大课程
     details: 包含南京大学软件学院各种课程笔记
-    link: /courses/softwareSecurtyHomework.md
+    link: /courses/softwareScurty/[239-12] CC++代码分析工具
     linkText: 去看看
     rel: external
     target: baiduaaaa

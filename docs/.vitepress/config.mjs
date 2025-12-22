@@ -32,7 +32,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '课程', link: '/courses/softwareSecurtyHomework' }
+      { text: '课程', link: '/courses/softwareScurty/[239-12] CC++代码分析工具' }
     ],
 
     sidebar: {
