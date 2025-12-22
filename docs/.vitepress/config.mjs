@@ -38,9 +38,13 @@ export default defineConfig({
     sidebar: {
       '/courses/': [
         {
-          text: '课程',
+          text: '软件安全',
           items: [
-            { text: '软件安全作业', link: '/courses/softwareSecurtyHomework' }
+            { text: 'C/C++代码分析工具', link: '/courses/softwareScurty/[239-12] CC++代码分析工具' },
+            { text: 'AFL', link: '/courses/softwareScurty/[239-15] AFL' },
+            { text: 'Metasploit进行漏洞测试', link: '/courses/softwareScurty/[239-16] Metasploit进行漏洞测试' },
+            { text: 'Crackme登录注册功能破解', link: '/courses/softwareScurty/304-25 Crackme登录注册功能破解' },
+            { text: '熊猫烧香', link: '/courses/softwareScurty/熊猫烧香' }
           ]
         }
       ],
