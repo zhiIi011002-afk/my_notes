@@ -1,5 +1,7 @@
 # 239-12flawfinder
 
+# 题目:![image-20251222101142670](\course\softwareSecurtyHomework\image-20251222101142670.png)
+
 1. pip安装flawfinder
 2. github上面找了一个C++写的终端版俄罗斯方块小游戏tinytetris，用的注释版源码
 3. 用flawfinder命令检测该项目，并将检测结果输出到一个html文件
