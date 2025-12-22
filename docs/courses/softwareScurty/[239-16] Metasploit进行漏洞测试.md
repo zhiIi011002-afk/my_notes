@@ -38,7 +38,7 @@ https://pan.baidu.com/s/17J_tWrQcnAU-QGG_uWdcIw?pwd=zt88
 
 kali 虚拟机 ip地址:172.27.94.165
 
-![image-20251222121250295](/course/softwareSecurtyHomework/api-examples.md)
+![image-20251222143220447](/course/softwareSecurtyHomework/image-20251222143220447.png)
 
 windows xp的ip地址：172.27.83.190
 
