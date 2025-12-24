@@ -24,8 +24,6 @@ features:
     details: 包含南京大学软件学院各种课程笔记
     link: /courses/softwareScurty/[239-12] CC++代码分析工具
     linkText: 去看看
-    rel: external
-    target: baiduaaaa
   - title: 未完待续
     icon:
       src: /暂无订单.png
